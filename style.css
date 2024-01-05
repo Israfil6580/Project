@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background: rgb(207, 205, 255);
+    background: linear-gradient(90deg, rgb(197, 194, 255) 0%, rgb(220, 240, 255) 0%, rgb(148, 63, 209) 100%);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav>img {
+    max-height: 100%;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul>li {
+    padding: 15px;
+}
+
+nav li>a {
+    font-size: 1.1rem;
+    color: #1f0025;
+    transition: all .2s ease-in-out;
+    font-weight: normal;
+}
+
+nav li>a:hover {
+    color: #03000b;
+}
+
+/*  */
+#h-section {
+    background: rgb(207, 205, 255);
+    background: linear-gradient(90deg, rgb(197, 194, 255) 0%, rgb(220, 240, 255) 0%, rgb(148, 63, 209) 100%);
+    max-height: calc(100vh - 70px);
+    overflow: hidden;
+}
+
+.h-section {
+    position: relative;
+    display: flex;
+}
+
+.h-section>.left {
+    width: 30%;
+}
+
+.h-section>.right {
+    width: 70%;
+}
+
+.man {
+    position: relative;
+}
+
+.right>.man {
+    background-size: cover;
+    background-position: center;
+}
+
+.design-template {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    width: 400px;
+    height: 320px;
+    color: aliceblue;
+    padding: 20px;
+    background: rgba(0, 0, 222, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.design-template>h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.design-template>p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.design-template>a {
+    font-size: 1.4rem;
+    color: aqua;
+}
+.title {
+   position: absolute; 
+   top: 20%;
+    left: 0;
+    width: 700px;
+}
+.title > h1 {
+    font-size: 5.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+.title > .different {
+    color: blue;
+}
+.title > .img-foot {
+    width: 50%;
+    display: block;
+} 
+.title > button {
+    padding: 24px 54px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    box-shadow:  40px 40px 80px rgb(197, 197, 255),
+                 -40px -40px 80px rgb(197, 197, 255);
+                 margin-top: 2.5rem;
+}
+.title > .link {
+    margin-top: 8rem;
+    padding-left: 15px;
+}
+.link a > i{
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.bv {
+    height: 100vh;
+}
